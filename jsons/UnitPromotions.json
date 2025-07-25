@@ -1,0 +1,31 @@
+[
+	{
+        "name": "行军",
+        "uniques": [
+			"[+25]% Strength <when fighting in [Forest] tiles>",
+			"[+25]% Strength <when fighting in [Jungle] tiles>",
+			"[+25]% Strength <when fighting in [Desert] tiles>",
+			"[+25]% Strength <when fighting in [Snow] tiles>",
+			"[+25]% Strength <when fighting in [Tundra] tiles>",
+			"[+25]% Strength <when fighting in [Hill] tiles>",
+			"Double movement in [Snow]",
+			"Double movement in [Tundra]",
+			"Double movement in [Hill]",
+			"Double movement in [Desert]",
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]",
+        ]
+    },
+	{
+		"name": "天赐",
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Can move after attacking"
+			"Heals [25] damage if it kills a unit"
+			"[+30]% Strength decreasing with distance from the capital",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+50]% Strength <vs [Wounded] units>",
+		]
+	},
+
+]

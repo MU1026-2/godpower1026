@@ -1,25 +1,176 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "水塔",
+		"uniqueTo": "天朝",
+		"cost": 75,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 20},
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"[+2 Food] from [Lakes] tiles [in this city]","[+2 Food] from [Fresh water] tiles [in this city]",
+			"Must be next to [Fresh water]",
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"[-20]% Gold cost of acquiring tiles [in this city]",
+			"Destroyed when the city is captured", "Provides 1 extra copy of each improved luxury resource near this City",],
+
 	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
-]
+    {
+		"name": "沙塔",
+		"uniqueTo": "天朝",
+		"cost": 75,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"food": 20},
+		"requiredTech": "Masonry",
+		"uniques": [
+			"[+2 Food] from [Flood plains] tiles [in this city]","[+2 Food] from [Oasis] tiles [in this city]"
+			"Must be next to [Desert]",
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"[-20]% Gold cost of acquiring tiles [in this city]",
+			"Destroyed when the city is captured", "Provides 1 extra copy of each improved luxury resource near this City",],
+	},
+   {
+		"name": "草塔",
+		"uniqueTo": "天朝",
+		"cost": 75,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 20},
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"[+2 Food] from [Plains] tiles [in this city]","[+2 Food] from [Forest] tiles [in this city]"
+			"Must be next to [Plains]",
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"[-20]% Gold cost of acquiring tiles [in this city]",
+			"Destroyed when the city is captured", "Provides 1 extra copy of each improved luxury resource near this City",],
+
+	},
+   {
+		"name": "雪塔",
+		"uniqueTo": "天朝",
+		"cost": 75,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 20},
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"[+2 Food] from [Tundra] tiles [in this city]","[+2 Food] from [Snow] tiles [in this city]"
+			"Must be next to [Tundra]",
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"[-20]% Gold cost of acquiring tiles [in this city]",
+			"Destroyed when the city is captured", "Provides 1 extra copy of each improved luxury resource near this City",],
+
+	},
+   {
+		"name": "海塔",
+		"uniqueTo": "天朝",
+		"cost": 75,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 20},
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"[+2 Food] from [Coast] tiles [in this city]","[+2 Food] from [Atoll] tiles [in this city]"
+			"Must be next to [Coast]",
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"[-20]% Gold cost of acquiring tiles [in this city]",
+			"Destroyed when the city is captured", "Provides 1 extra copy of each improved luxury resource near this City",],
+
+	},
+   {
+		"name": "林塔",
+		"uniqueTo": "天朝",
+		"cost": 75,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 20},
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"[+2 Food] from [Grassland] tiles [in this city]","[+2 Food] from [Jungle] tiles [in this city]"
+			"Must be next to [Grassland]",
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"[-20]% Gold cost of acquiring tiles [in this city]",
+			"Destroyed when the city is captured", "Provides 1 extra copy of each improved luxury resource near this City",],
+	},
+   {
+		"name": "山塔",
+		"uniqueTo": "天朝",
+		"cost": 75,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 20},
+		"requiredTech": "The Wheel",
+		"uniques": [
+			"[+2 Food] from [Mountain] tiles [in this city]","[+2 Food] from [Hill] tiles [in this city]"
+			"Must be next to [Mountain]",
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"[-20]% Gold cost of acquiring tiles [in this city]",
+			"Destroyed when the city is captured", "Provides 1 extra copy of each improved luxury resource near this City",],
+	},
+
+    {
+		"name": "瑞雪",
+		"cost": 1,
+		"uniqueTo": "天朝",
+	    "maintenance": 0,
+		"uniques":[
+		"Can only be built<in [in capital] cities>", 
+		"Cannot be purchased", "Unsellable",
+		"Destroyed when the city is captured",
+		"[+2 Food] from [Snow] tiles [in all cities]",
+		"[+1 Food] from [Tundra] tiles [in all cities]",
+		]
+	},
+    {
+		"name": "暴雪",
+		"cost": 1,
+		"uniqueTo": "天朝",
+	    "maintenance": 0,
+		"uniques":[
+		"Can only be built<in [in capital] cities>", 
+		"Cannot be purchased", "Unsellable",
+		"Destroyed when the city is captured",
+		"[+2 Production] from [Snow] tiles [in all cities]",
+		"[+1 Production] from [Tundra] tiles [in all cities]",
+		]
+	},
+   {
+		"name": "布达拉宫",
+		"cost": 250,
+		"isWonder": true,
+		"requiredTech": "Currency",
+		"uniques":["Must be on [Tundra]",
+		"Must be next to [Mountain]", 
+		"[+1 Food, +1 Gold, +1 Production] from [Mountain] tiles [in this city]",
+		"[+1 Food, +1 Gold, +1 Production] from [Snow] tiles [in this city]",
+		"[+1 Food, +1 Gold, +1 Production] from [Tundra] tiles [in this city]",],
+	//奇观
+	},
+   {
+		"name": "不冻港",
+		"cost": 250,
+		"isWonder": true,
+		"requiredTech": "Currency",
+		"uniques": ["Must be next to [Coast]",
+		"Must be on [Tundra]",
+		"[+1 Food, +1 Gold, +1 Production] from [Coast] tiles [in this city]",
+		"[+1 Food, +1 Gold, +1 Production] from [Snow] tiles [in this city]",
+		"[+1 Food, +1 Gold, +1 Production] from [Tundra] tiles [in this city]",],
+	//奇观
+	},
+
+
+		]	
