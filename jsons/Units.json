@@ -1,6 +1,6 @@
 [
 	{
-		"name": "士兵",
+		"name": "神剑",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 9,
@@ -9,22 +9,9 @@
 		"replaces": "Warrior",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"promotions": ["天赐", "Woodsman"],
-		"uniques":["May upgrade to [Spearman] through ruins-like effects", ]
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "神剑",
-		"uniqueTo": "天朝",
-		"replaces": "Spearman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 15,
-		"cost": 60,
-		"requiredTech": "Bronze Working",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>",
-		"[+300]% Strength <vs cities> <when attacking>",
-		"[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"promotions": ["天赐", "教化", "入乡随俗", "Woodsman"],
+		"uniques":["May upgrade to [Spearman] through ruins-like effects",
+]
 		"attackSound": "metalhit"
 	},
 	{
@@ -32,37 +19,13 @@
 		"unitType": "Civilian",
 		"uniqueTo": "天朝",
 		"replaces": "Great General",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles",
-			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+		"uniques": ["[+20]% Strength bonus for [Military] units within [3] tiles",
+			"All adjacent units heal [+20] HP when healing", "[+20] HP when healing",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Is part of Great Person group [General]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
-	},
-	{
-		"name": "征服者",
-		"uniqueTo": "天朝", 
-		"unitType": "Armored",
-		"movement": 9,
-		"strength": 300,
-		"rangedStrength": 300,
-		"range": 3,
-		"cost": 3000,
-		"requiredTech": "Compass",
-		"promotions": ["天赐", "行军"],
-		"uniques": ["Can move immediately once bought"],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Fisherman",
-		"unitType": "Civilian",
-		"movement": 2,
-		"requiredTech": "Sailing",
-		"cost": 50,
-		"uniques": ["May travel on Water tiles without embarking", "Cannot enter ocean tiles <before discovering [Optics]>", "Uncapturable", "Can build [Water] improvements on tiles", "Automation is a primary action", "Unavailable <for [AI player] Civilizations> ", "Can build [Land] improvements on tiles <for [AI player] Civilizations> "]	
-		
-	//侦查单位
 	},
 	{
 		"name": "Settler",
@@ -71,9 +34,8 @@
 		"cost": 100,
 		"uniques": ["Founds a new city <by consuming this unit>", 
 		    "Excess Food converted to Production when under construction", 
-		    "Requires at least [3] population", 
-		    "Can instantly construct a [属地] improvement <[1] times> <for [天朝] Civilizations> ", 
-		    "[This Unit] gains the [行军] promotion <for [天朝] Civilizations> ", 
+		    "Requires at least [2] population", 
+		    "[This Unit] gains the [跋山涉水] promotion <for [天朝] Civilizations> ", 
 		    "[-25]% production cost <for [天朝] Civilizations> "
 		],
 	},
@@ -83,13 +45,8 @@
 		"movement": 2,
 		"cost": 63
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
-		    "[This Unit] gains the [行军] promotion <for [天朝] Civilizations> ", "[-25]% production cost <for [天朝] Civilizations> ",
-		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [天朝] Civilizations> "
-		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [天朝] Civilizations> <by consuming this unit> ",	
-   		    "Turn this tile into a [Jungle] tile <once> <in [Your] cities> <for [天朝] Civilizations> "
-		    "Turn this tile into a [Jungle] tile <in [Your] cities> <for [天朝] Civilizations> <by consuming this unit> ",
-		    "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> ",
-		    "Can instantly construct a [属地] improvement <[1] times> <by consuming this unit><for [天朝] Civilizations> "
+		    "[This Unit] gains the [跋山涉水] promotion <for [天朝] Civilizations> ", "[-25]% production cost <for [天朝] Civilizations> ",
+
 ],
 
 	},

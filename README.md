@@ -1,5 +1,4 @@
-# Unciv-mod-example
+# Possessing Godlike Power
 
-An example mod for Unciv, that adds one new Civilization.
+Trying to balance it by making choices that make his power less unbalanced.
 
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)

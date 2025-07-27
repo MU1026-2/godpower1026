@@ -1,19 +1,28 @@
 [
 	{
-        "name": "行军",
+        "name": "跋山涉水",
         "uniques": [
-			"[+25]% Strength <when fighting in [Forest] tiles>",
-			"[+25]% Strength <when fighting in [Jungle] tiles>",
-			"[+25]% Strength <when fighting in [Desert] tiles>",
-			"[+25]% Strength <when fighting in [Snow] tiles>",
-			"[+25]% Strength <when fighting in [Tundra] tiles>",
-			"[+25]% Strength <when fighting in [Hill] tiles>",
 			"Double movement in [Snow]",
 			"Double movement in [Tundra]",
 			"Double movement in [Hill]",
 			"Double movement in [Desert]",
 			"Double movement in [Forest]",
 			"Double movement in [Jungle]",
+			"May travel on Water tiles without embarking",
+			"Can pass through impassable tiles",
+			"Ignores terrain cost",
+        ]
+    },
+	{
+        "name": "入乡随俗",
+        "uniques": [
+			"[+15]% Strength <when fighting in [Forest] tiles>",
+			"[+15]% Strength <when fighting in [Jungle] tiles>",
+			"[+15]% Strength <when fighting in [Desert] tiles>",
+			"[+15]% Strength <when fighting in [Snow] tiles>",
+			"[+15]% Strength <when fighting in [Tundra] tiles>",
+			"[+15]% Strength <when fighting in [Hill] tiles>",
+			"[+15]% Strength <when fighting in [Coast] tiles>",
         ]
     },
 	{
@@ -21,11 +30,21 @@
 		"uniques": [
 			"[1] additional attacks per turn",
 			"Can move after attacking"
-			"Heals [25] damage if it kills a unit"
-			"[+30]% Strength decreasing with distance from the capital",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"[+50]% Strength <vs [Wounded] units>",
+			"Heals [15] damage if it kills a unit"
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+30]% Strength <vs [Wounded] units>",
+			"[+30]% Strength <vs [Mounted] units>",
+			"[+30]% Strength <when below [30] HP>",
 		]
 	},
-
+	{
+		"name": "教化",
+		"uniques": [
+			"[+60]% Strength decreasing with distance from the capital",
+			"[+30]% Strength <when fighting units from a Civilization with more Cities than you>",
+			"[+30]% Strength <when fighting in [Foreign Land] tiles>" 
+			"[+150]% Strength <vs cities> <when attacking>",
+			"[+30]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+		]
+	},
 ]

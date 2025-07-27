@@ -1,59 +1,26 @@
 [
 	{
-		"name": "海祭",
-		"uniqueTo": "天朝",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 1,
-		"turnsToBuild": 4,
-		"uniques": ["Can only be built on [Coastal] tiles",
-			"[+2 Culture] for each adjacent [海祭]",],
-		"techRequired": "Construction",
-		"shortcutKey": "M"
-	},
-	{
-		"name": "山田",
-		"uniqueTo": "天朝",
-		"terrainsCanBeBuiltOn": ["Hill", "Mountain"],
-		"food": 2,
-		"turnsToBuild": 7,
-		"uniques": ["Cannot be built on [Bonus resource] tiles",
-			"[+2 Food] for each adjacent [Mountain]",
-			"[+2 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>"],
-		"techRequired": "Construction",
-		"shortcutKey": "F"
-	},
-	{
-		"name": "沙田",
-		"uniqueTo": "天朝",
-		"food": 4,
-		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Oasis"],
-		"turnsToBuild": 7,
-		"uniques": ["[+2 Production, +1 Gold] <after discovering [Economics]>"],
-		"techRequired": "Masonry",
-		"shortcutKey": "F"
-	}
-	{
 		"name": "属地",
 		"production": 1,
-		"gold": 1,
+		"gold": 2,
 		"food": 1,
+		"turnsToBuild": 12,
 		"uniqueTo": "天朝",
 		"terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle"],
-		"uniques": ["Improves [Strategic] resource in this tile", "Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [2] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [属地]>", "Adjacent enemy units ending their turn take [10] damage", "Tile provides yield without assigned population", 
-		"Gain control over [all] tiles in a [2]-tile radius"
-		"[+2 Food] <for every adjacent [{improved} {Bonus resource}]>",
+		"uniques": ["Improves [Strategic] resource in this tile", "Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [2] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [属地]>", "Adjacent enemy units ending their turn take [30] damage", "Tile provides yield without assigned population", 
+		"Gain control over [all] tiles in a [1]-tile radius"
+		"[+1 Food] <for every adjacent [{improved} {Bonus resource}]>",
 		
-		"[+4 Gold] <for every adjacent [{improved} {Luxury resource}]>",
+		"[+2 Gold] <for every adjacent [{improved} {Luxury resource}]>",
 		
-		"Comment [[+2 Production] [for every adjacent [{improved} {Strategic resource}]]]",
+		"Comment [[+1 Production] [for every adjacent [{improved} {Strategic resource}]]]",
 		
-		"[+2 Production] <for every adjacent [{improved} {Horses}]> <after discovering [Animal Husbandry]> ",
-		"[+2 Production] <for every adjacent [{improved} {Iron}]> <after discovering [Iron Working]>",
-		"[+2 Production] <for every adjacent [{improved} {Coal}]> <after discovering [Chemistry]> ",
-		"[+2 Production] <for every adjacent [{improved} {Oil}]> <after discovering [Biology]> ",
-		"[+2 Production] <for every adjacent [{improved} {Aluminum}]> <after discovering [Electricity]> ",
-		"[+2 Production] <for every adjacent [{improved} {Uranium}]> <after discovering [Atomic Theory]> ",
+		"[+1 Production] <for every adjacent [{improved} {Horses}]> <after discovering [Animal Husbandry]> ",
+		"[+1 Production] <for every adjacent [{improved} {Iron}]> <after discovering [Iron Working]>",
+		"[+1 Production] <for every adjacent [{improved} {Coal}]> <after discovering [Chemistry]> ",
+		"[+1 Production] <for every adjacent [{improved} {Oil}]> <after discovering [Biology]> ",
+		"[+1 Production] <for every adjacent [{improved} {Aluminum}]> <after discovering [Electricity]> ",
+		"[+1 Production] <for every adjacent [{improved} {Uranium}]> <after discovering [Atomic Theory]> ",
 		
 	],
 	},
